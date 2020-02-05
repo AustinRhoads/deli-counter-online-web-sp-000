@@ -20,5 +20,9 @@ puts "Welcome, #{pers}. You are number #{place_in_line} in line."
 end
 
 def now_serving(array)
-
+  if array.count == 0
+  puts "There is nobody waiting to be served!"
+  else
+    
+  end
 end
