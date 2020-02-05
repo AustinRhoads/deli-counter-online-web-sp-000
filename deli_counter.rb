@@ -15,7 +15,7 @@ end
 
 def take_a_number(array, pers)
 array.push(pers)
-place_in_line = array[-1].index + 1
+place_in_line = array.index(pers) + 1
 puts "Welcome, #{pers}. You are number #{place_in_line} in line."
 end
 
