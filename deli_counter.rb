@@ -15,7 +15,7 @@ end
 
 def take_a_number(array, new_cutsomer)
 new = array.push(new_cutsomer)
-puts "Welcome, #{name}. You are number #{new.index + 1} in line."
+puts "Welcome, #{new_cutomer}. You are number #{new.index + 1} in line."
 end
 
 def now_serving(array)
