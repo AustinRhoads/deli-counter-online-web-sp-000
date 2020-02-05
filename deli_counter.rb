@@ -9,7 +9,7 @@ def line(array)
     ary.push("#{num}. name")
     end
     puts "The line is currently: " + ary.join(" ")
-    
+
   end
 end
 
