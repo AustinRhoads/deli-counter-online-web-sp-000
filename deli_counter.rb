@@ -6,7 +6,7 @@ def line(array)
   else
     array.each_with_index do |name, index|
     num = index + 1
-    ary.push("#{num}. name")
+    ary.push("#{num}. #{name}")
     end
     puts "The line is currently: " + ary.join(" ")
 
