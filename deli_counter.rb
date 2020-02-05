@@ -14,9 +14,9 @@ def line(array)
 end
 
 def take_a_number(array, new_customer)
-new = array.push(new_customer)
-
-puts "Welcome, #{new_customer}. You are number #{new.index + 1} in line."
+array.push(new_customer)
+new = array[-1].index + 1
+puts "Welcome, #{new_customer}. You are number #{new} in line."
 end
 
 def now_serving(array)
