@@ -13,8 +13,8 @@ def line(array)
   end
 end
 
-def take_a_number(array)
-
+def take_a_number(array, new_cutsomer)
+array.push(new_cutsomer)
 end
 
 def now_serving(array)
