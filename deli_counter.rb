@@ -13,10 +13,8 @@ def line(array)
   end
 end
 
-def take_a_number(array, new_customer)
-array << new_customer
-spot = array[-1].index + 1
-puts "Welcome, #{new_customer}. You are number #{spot} in line."
+def take_a_number(array, next)
+array.push(next)
 end
 
 def now_serving(array)
