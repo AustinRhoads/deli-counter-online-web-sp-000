@@ -14,7 +14,8 @@ def line(array)
 end
 
 def take_a_number(array, new_cutsomer)
-array.push(new_cutsomer)
+new = array.push(new_cutsomer)
+puts "#{new_customer} #{new + 1}"
 end
 
 def now_serving(array)
